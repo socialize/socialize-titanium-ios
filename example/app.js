@@ -25,3 +25,26 @@ if (Ti.Platform.name == "android") {
 	var proxy = socializeiostitanium.createExample({message: "Creating an example Proxy"});
 	proxy.printMessage("Hello world!");
 }
+
+testView = socializeiostitanium.getActionBar("MyKey");
+
+var navWindow = Ti.UI.createWindow({
+    backgroundColor:"#fff",
+    title:"My App"
+});
+
+var nav = Titanium.UI.iPhone.createNavigationGroup({
+    window:navWindow
+});
+window.add(nav)
+
+var foo = socializeiostitanium.createView({
+  "color":"red",
+  "width":320,
+  "height":44,
+  "bottom":0,
+  "modalController":nav,
+  "entityKey":"http://www.npr.org/"
+});
+
+navWindow.add(foo);

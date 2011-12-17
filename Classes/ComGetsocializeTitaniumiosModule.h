@@ -6,6 +6,8 @@
  */
 #import "TiModule.h"
 
+#define MODULEID @"com.getsocialize.titaniumios"
+
 @interface ComGetsocializeTitaniumiosModule : TiModule 
 {
 }
