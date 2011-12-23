@@ -18,7 +18,7 @@ run: module.xcconfig titanium.xcconfig socialize
 	"$(TITANIUM)" run
 
 socialize:
-	@[ -d "$(SOCIALIZE)" ] || { echo "Socialize not found. run git submodule update --init"; exit 1; }
+	@[ -d "$(SOCIALIZE)/.git" ] || { echo "Socialize not found. run git submodule update --init"; exit 1; }
 	cd $(SOCIALIZE) && make framework
 	cd $(SOCIALIZE) && make bundle
 	rm -rf assets/Socialize.bundle
