@@ -1,1 +1,15 @@
 Titanium Module for the Socialize iOS SDK
+
+Instructions
+============
+
+Get an account and Install titanium from http://www.appcelerator.com/
+Run TitaniumStudio once so that the updated SDK is downloaded
+Clone this repository
+git submodule update --init
+edit the toplevel Makefile and make sure TITANIUM_SDK_VERSION is correct
+make run
+
+If all is successful, you should see an example app with the Socialize Action Bar
+
+Check out example/app.js to see the javascript code for the example app!
