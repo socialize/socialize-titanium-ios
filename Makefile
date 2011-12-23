@@ -17,6 +17,10 @@ run: module.xcconfig titanium.xcconfig socialize
 	@[ -e "$(TITANIUM)" ] || { echo "Titanium not found at $(TITANIUM). Check your TITANIUM_SDK_VERSION in this Makefile, and/or install titanium"; exit 1; }
 	"$(TITANIUM)" run
 
+build: module.xcconfig titanium.xcconfig socialize
+	@[ -e "$(TITANIUM)" ] || { echo "Titanium not found at $(TITANIUM). Check your TITANIUM_SDK_VERSION in this Makefile, and/or install titanium"; exit 1; }
+	./build.py
+
 socialize:
 	@[ -d "$(SOCIALIZE)/.git" ] || { echo "Socialize not found. run git submodule update --init"; exit 1; }
 	cd $(SOCIALIZE) && make framework
