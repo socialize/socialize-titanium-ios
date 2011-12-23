@@ -31,8 +31,8 @@
 		AA0FFC08149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0FFC06149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.h */; };
 		AA0FFC09149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0FFC07149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.m */; };
 		AA747D9F0F9514B9006C5449 /* ComGetsocializeTitaniumios_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComGetsocializeTitaniumios_Prefix.pch */; };
-		AACADD9B149C314700D74464 /* Socialize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACADD9A149C314700D74464 /* Socialize.framework */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		AAE55DDC14A42DDD0034E1CB /* Socialize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE55DDB14A42DDD0034E1CB /* Socialize.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 		AA0FFC06149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGetsocializeTitaniumiosActionBarProxy.h; path = Classes/ComGetsocializeTitaniumiosActionBarProxy.h; sourceTree = "<group>"; };
 		AA0FFC07149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGetsocializeTitaniumiosActionBarProxy.m; path = Classes/ComGetsocializeTitaniumiosActionBarProxy.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComGetsocializeTitaniumios_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComGetsocializeTitaniumios_Prefix.pch; sourceTree = SOURCE_ROOT; };
-		AACADD9A149C314700D74464 /* Socialize.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Socialize.framework; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAE55DDB14A42DDD0034E1CB /* Socialize.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Socialize.framework; path = "Frameworks/socialize-sdk-ios/build/Socialize.embeddedframework/Socialize.framework"; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libComGetsocializeTitaniumios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComGetsocializeTitaniumios.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,7 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				AACADD9B149C314700D74464 /* Socialize.framework in Frameworks */,
+				AAE55DDC14A42DDD0034E1CB /* Socialize.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AACADD9A149C314700D74464 /* Socialize.framework */,
+				AAE55DDB14A42DDD0034E1CB /* Socialize.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -241,6 +241,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Socialize.embeddedframework\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks/socialize-sdk-ios/build/Socialize.embeddedframework\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
@@ -263,6 +264,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/Socialize.embeddedframework\"",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks/socialize-sdk-ios/build/Socialize.embeddedframework\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

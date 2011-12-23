@@ -16,3 +16,5 @@ target/*
 profile
 xcuserdata
 *.swp
+module.xcconfig
+titanium.xcconfig
