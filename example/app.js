@@ -38,8 +38,7 @@ var nav = Titanium.UI.iPhone.createNavigationGroup({
 });
 window.add(nav)
 
-var foo = socializeiostitanium.createView({
-  "color":"red",
+var foo = socializeiostitanium.createActionBar({
   "width":320,
   "height":44,
   "bottom":0,

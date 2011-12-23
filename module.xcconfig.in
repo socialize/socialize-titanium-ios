@@ -26,7 +26,7 @@
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
 
-SOCIALIZE_FRAMEWORK_DIR=$(HOME)/ios/socialize-sdk-ios/build/Socialize.embeddedframework
+SOCIALIZE_FRAMEWORK_DIR=@socialize_framework_dir@
 
 OTHER_LDFLAGS=$(inherited) -F$(SOCIALIZE_FRAMEWORK_DIR) -framework Socialize -ObjC -all_load
 //FRAMEWORK_SEARCH_PATHS=$(inherited) $(SRCROOT)

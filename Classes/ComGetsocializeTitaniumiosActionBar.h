@@ -11,11 +11,7 @@
 
 @class SocializeActionBar;
 
-@interface ComGetsocializeTitaniumiosView : TiUIView
-{
-    UIView *square;
-    UIView *myView;
-}
+@interface ComGetsocializeTitaniumiosActionBar : TiUIView
 
 @property (nonatomic, retain) SocializeActionBar *actionBar;
 @property (nonatomic, retain) UIViewController *presentModalInViewController;

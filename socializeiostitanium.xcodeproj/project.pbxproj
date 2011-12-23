@@ -26,16 +26,12 @@
 		24DD6CFA1134B3F500162E58 /* ComGetsocializeTitaniumiosModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComGetsocializeTitaniumiosModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* ComGetsocializeTitaniumiosModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComGetsocializeTitaniumiosModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* ComGetsocializeTitaniumiosModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComGetsocializeTitaniumiosModuleAssets.m */; };
-		AA0FFC03149BED16002ABB8A /* ComGetsocializeTitaniumiosView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0FFC01149BED16002ABB8A /* ComGetsocializeTitaniumiosView.h */; };
-		AA0FFC04149BED16002ABB8A /* ComGetsocializeTitaniumiosView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0FFC02149BED16002ABB8A /* ComGetsocializeTitaniumiosView.m */; };
-		AA0FFC08149BEE22002ABB8A /* ComGetsocializeTitaniumiosViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0FFC06149BEE22002ABB8A /* ComGetsocializeTitaniumiosViewProxy.h */; };
-		AA0FFC09149BEE22002ABB8A /* ComGetsocializeTitaniumiosViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0FFC07149BEE22002ABB8A /* ComGetsocializeTitaniumiosViewProxy.m */; };
+		AA0FFC03149BED16002ABB8A /* ComGetsocializeTitaniumiosActionBar.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0FFC01149BED16002ABB8A /* ComGetsocializeTitaniumiosActionBar.h */; };
+		AA0FFC04149BED16002ABB8A /* ComGetsocializeTitaniumiosActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0FFC02149BED16002ABB8A /* ComGetsocializeTitaniumiosActionBar.m */; };
+		AA0FFC08149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0FFC06149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.h */; };
+		AA0FFC09149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0FFC07149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.m */; };
 		AA747D9F0F9514B9006C5449 /* ComGetsocializeTitaniumios_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComGetsocializeTitaniumios_Prefix.pch */; };
 		AACADD9B149C314700D74464 /* Socialize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACADD9A149C314700D74464 /* Socialize.framework */; };
-		AACADD9F149C362400D74464 /* NSObject+Swizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = AACADD9D149C362400D74464 /* NSObject+Swizzle.h */; };
-		AACADDA0149C362400D74464 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADD9E149C362400D74464 /* NSObject+Swizzle.m */; };
-		AACADDA3149C36A700D74464 /* NSBundle+Socialize.h in Headers */ = {isa = PBXBuildFile; fileRef = AACADDA1149C36A700D74464 /* NSBundle+Socialize.h */; };
-		AACADDA4149C36A700D74464 /* NSBundle+Socialize.m in Sources */ = {isa = PBXBuildFile; fileRef = AACADDA2149C36A700D74464 /* NSBundle+Socialize.m */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,16 +51,12 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* ComGetsocializeTitaniumiosModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGetsocializeTitaniumiosModuleAssets.h; path = Classes/ComGetsocializeTitaniumiosModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* ComGetsocializeTitaniumiosModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGetsocializeTitaniumiosModuleAssets.m; path = Classes/ComGetsocializeTitaniumiosModuleAssets.m; sourceTree = "<group>"; };
-		AA0FFC01149BED16002ABB8A /* ComGetsocializeTitaniumiosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGetsocializeTitaniumiosView.h; path = Classes/ComGetsocializeTitaniumiosView.h; sourceTree = "<group>"; };
-		AA0FFC02149BED16002ABB8A /* ComGetsocializeTitaniumiosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGetsocializeTitaniumiosView.m; path = Classes/ComGetsocializeTitaniumiosView.m; sourceTree = "<group>"; };
-		AA0FFC06149BEE22002ABB8A /* ComGetsocializeTitaniumiosViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGetsocializeTitaniumiosViewProxy.h; path = Classes/ComGetsocializeTitaniumiosViewProxy.h; sourceTree = "<group>"; };
-		AA0FFC07149BEE22002ABB8A /* ComGetsocializeTitaniumiosViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGetsocializeTitaniumiosViewProxy.m; path = Classes/ComGetsocializeTitaniumiosViewProxy.m; sourceTree = "<group>"; };
+		AA0FFC01149BED16002ABB8A /* ComGetsocializeTitaniumiosActionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGetsocializeTitaniumiosActionBar.h; path = Classes/ComGetsocializeTitaniumiosActionBar.h; sourceTree = "<group>"; };
+		AA0FFC02149BED16002ABB8A /* ComGetsocializeTitaniumiosActionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGetsocializeTitaniumiosActionBar.m; path = Classes/ComGetsocializeTitaniumiosActionBar.m; sourceTree = "<group>"; };
+		AA0FFC06149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGetsocializeTitaniumiosActionBarProxy.h; path = Classes/ComGetsocializeTitaniumiosActionBarProxy.h; sourceTree = "<group>"; };
+		AA0FFC07149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGetsocializeTitaniumiosActionBarProxy.m; path = Classes/ComGetsocializeTitaniumiosActionBarProxy.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComGetsocializeTitaniumios_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComGetsocializeTitaniumios_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACADD9A149C314700D74464 /* Socialize.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Socialize.framework; sourceTree = "<group>"; };
-		AACADD9D149C362400D74464 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Swizzle.h"; path = "Classes/NSObject+Swizzle.h"; sourceTree = "<group>"; };
-		AACADD9E149C362400D74464 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Swizzle.m"; path = "Classes/NSObject+Swizzle.m"; sourceTree = "<group>"; };
-		AACADDA1149C36A700D74464 /* NSBundle+Socialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBundle+Socialize.h"; path = "Classes/NSBundle+Socialize.h"; sourceTree = "<group>"; };
-		AACADDA2149C36A700D74464 /* NSBundle+Socialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+Socialize.m"; path = "Classes/NSBundle+Socialize.m"; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libComGetsocializeTitaniumios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComGetsocializeTitaniumios.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -117,14 +109,10 @@
 				24DE9E1011C5FE74003F90F6 /* ComGetsocializeTitaniumiosModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* ComGetsocializeTitaniumiosModule.h */,
 				24DD6CF81134B3F500162E58 /* ComGetsocializeTitaniumiosModule.m */,
-				AA0FFC01149BED16002ABB8A /* ComGetsocializeTitaniumiosView.h */,
-				AA0FFC02149BED16002ABB8A /* ComGetsocializeTitaniumiosView.m */,
-				AA0FFC06149BEE22002ABB8A /* ComGetsocializeTitaniumiosViewProxy.h */,
-				AA0FFC07149BEE22002ABB8A /* ComGetsocializeTitaniumiosViewProxy.m */,
-				AACADD9D149C362400D74464 /* NSObject+Swizzle.h */,
-				AACADD9E149C362400D74464 /* NSObject+Swizzle.m */,
-				AACADDA1149C36A700D74464 /* NSBundle+Socialize.h */,
-				AACADDA2149C36A700D74464 /* NSBundle+Socialize.m */,
+				AA0FFC01149BED16002ABB8A /* ComGetsocializeTitaniumiosActionBar.h */,
+				AA0FFC02149BED16002ABB8A /* ComGetsocializeTitaniumiosActionBar.m */,
+				AA0FFC06149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.h */,
+				AA0FFC07149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -148,10 +136,8 @@
 				AA747D9F0F9514B9006C5449 /* ComGetsocializeTitaniumios_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* ComGetsocializeTitaniumiosModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* ComGetsocializeTitaniumiosModuleAssets.h in Headers */,
-				AA0FFC03149BED16002ABB8A /* ComGetsocializeTitaniumiosView.h in Headers */,
-				AA0FFC08149BEE22002ABB8A /* ComGetsocializeTitaniumiosViewProxy.h in Headers */,
-				AACADD9F149C362400D74464 /* NSObject+Swizzle.h in Headers */,
-				AACADDA3149C36A700D74464 /* NSBundle+Socialize.h in Headers */,
+				AA0FFC03149BED16002ABB8A /* ComGetsocializeTitaniumiosActionBar.h in Headers */,
+				AA0FFC08149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,10 +213,8 @@
 			files = (
 				24DD6CFA1134B3F500162E58 /* ComGetsocializeTitaniumiosModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* ComGetsocializeTitaniumiosModuleAssets.m in Sources */,
-				AA0FFC04149BED16002ABB8A /* ComGetsocializeTitaniumiosView.m in Sources */,
-				AA0FFC09149BEE22002ABB8A /* ComGetsocializeTitaniumiosViewProxy.m in Sources */,
-				AACADDA0149C362400D74464 /* NSObject+Swizzle.m in Sources */,
-				AACADDA4149C36A700D74464 /* NSBundle+Socialize.m in Sources */,
+				AA0FFC04149BED16002ABB8A /* ComGetsocializeTitaniumiosActionBar.m in Sources */,
+				AA0FFC09149BEE22002ABB8A /* ComGetsocializeTitaniumiosActionBarProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
+#import <Socialize/Socialize.h>
 
 @implementation ComGetsocializeTitaniumiosModule
 
@@ -33,7 +34,10 @@
 	// you *must* call the superclass
 	[super startup];
 	
+    NSString *bundlePath = [NSString stringWithFormat:@"modules/%@/socialize.bundle",MODULEID];
+    [Socialize storeBundlePath:bundlePath];
 	NSLog(@"[INFO] %@ loaded",self);
+    
 }
 
 -(void)shutdown:(id)sender

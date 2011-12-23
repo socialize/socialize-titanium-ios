@@ -6,6 +6,7 @@ build
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/project.xcworkspace
 /build
+/assets/Socialize.bundle
 *.pbxuser
 *.mode1v3
 *.mode2v3

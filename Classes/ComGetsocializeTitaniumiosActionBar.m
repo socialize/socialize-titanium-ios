@@ -6,10 +6,10 @@
 //  Copyright (c) 2011 Nathaniel Griswold. All rights reserved.
 //
 
-#import "ComGetsocializeTitaniumiosView.h"
+#import "ComGetsocializeTitaniumiosActionBar.h"
 #import <Socialize/Socialize.h>
 
-#import "ComGetsocializeTitaniumiosView.h"
+#import "ComGetsocializeTitaniumiosActionBar.h"
 #import "TiUtils.h"
 #import "TiUIiPhoneNavigationGroup.h"
 
@@ -17,14 +17,13 @@
 -(UINavigationController*)controller;
 @end
 
-@implementation ComGetsocializeTitaniumiosView
+@implementation ComGetsocializeTitaniumiosActionBar
 @synthesize actionBar = actionBar_;
 @synthesize presentModalInViewController = presentModalInViewController_;
 @synthesize entityKey = entityKey_;
 
 -(void)dealloc
 {
-    RELEASE_TO_NIL(square);
     RELEASE_TO_NIL(actionBar_);
     RELEASE_TO_NIL(presentModalInViewController_);
     RELEASE_TO_NIL(entityKey_);
@@ -60,11 +59,10 @@
     [TiUtils setView:self.actionBar.view positionRect:bounds];
 }
 
-- (void)setEntityKey_:(id)args {
-    ENSURE_SINGLE_ARG(args, NSString);
-    NSString *key = args;
+- (void)setEntityKey_:(id)arg {
+    NSString *key = arg;
     self.entityKey = key;
-    
+    NSLog(@"Setting key to %@", key);
     [self tryLoadActionBar];
 }
 
