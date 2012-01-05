@@ -12,4 +12,7 @@
 {
 }
 
+@property (nonatomic, copy) NSString *apiKey;
+@property (nonatomic, copy) NSString *apiSecret;
+
 @end

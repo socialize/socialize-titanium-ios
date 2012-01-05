@@ -35,7 +35,6 @@
     NSBundle *bundle = [NSBundle mainBundle];
     NSLog(@"Bundle is %@", bundle);
     NSAssert(self.entityKey != nil && self.presentModalInViewController != nil, @"Both entity key and modal presentation target are required");
-    [Socialize storeSocializeApiKey:@"0a3bc7cd-c269-4587-8687-cd02db56d57f" andSecret:@"8ee55515-4f1f-42ea-b25e-c4eddebf6c02"];
 
     if (self.actionBar != nil) {
         [self.actionBar.view removeFromSuperview];

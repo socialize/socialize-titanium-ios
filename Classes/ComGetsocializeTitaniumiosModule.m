@@ -10,7 +10,11 @@
 #import "TiUtils.h"
 #import <Socialize/Socialize.h>
 
+#define NonatomicRetainedSetToFrom(a, b) do{if(a!=b){[a release];a=[b retain];}}while(0)
+
 @implementation ComGetsocializeTitaniumiosModule
+@synthesize apiKey = apiKey_;
+@synthesize apiSecret = apiSecret_;
 
 #pragma mark Internal
 
@@ -105,6 +109,30 @@
 -(void)exampleProp:(id)value
 {
 	// example property setter
+}
+
+-(void)trySetApiKeyAndSecret {
+    if ([self.apiKey length] > 0 && [self.apiSecret length] > 0) {
+        NSLog(@"Socialize: Setting socialize api key and secret to %@/%@", self.apiKey, self.apiSecret);
+        [Socialize storeSocializeApiKey:self.apiKey andSecret:self.apiSecret];
+    }
+}
+
+-(void)setApiKey:(id)value
+{
+    NonatomicRetainedSetToFrom(apiKey_, value);
+    [self trySetApiKeyAndSecret];
+}
+
+-(void)setApiSecret:(id)value
+{
+    NonatomicRetainedSetToFrom(apiSecret_, value);
+    [self trySetApiKeyAndSecret];
+}
+
+-(id)removeAuthenticationInfo:(id)args {
+    [[[[Socialize alloc] initWithDelegate:nil] autorelease] removeAuthenticationInfo];
+    return nil;
 }
 
 @end
