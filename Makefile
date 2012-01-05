@@ -23,11 +23,11 @@ build: module.xcconfig titanium.xcconfig socialize
 
 socialize:
 	@[ -d "$(SOCIALIZE)/.git" ] || { echo "Socialize not found. run git submodule update --init"; exit 1; }
-	cd $(SOCIALIZE) && make framework
-	cd $(SOCIALIZE) && make bundle
+	cd "$(SOCIALIZE)" && make framework
+	cd "$(SOCIALIZE)" && make bundle
 	rm -rf assets/Socialize.bundle
 	mkdir -p assets/Socialize.bundle
-	cp -R $(SOCIALIZE)/build/Socialize.bundle/. assets/Socialize.bundle
+	cp -R "$(SOCIALIZE)/build/Socialize.bundle/." assets/Socialize.bundle
 
 
 %: %.in Makefile

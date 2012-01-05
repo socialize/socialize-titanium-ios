@@ -28,5 +28,5 @@
 
 SOCIALIZE_FRAMEWORK_DIR=@socialize_framework_dir@
 
-OTHER_LDFLAGS=$(inherited) -F$(SOCIALIZE_FRAMEWORK_DIR) -framework Socialize -ObjC -all_load
+OTHER_LDFLAGS=$(inherited) -F "$(SOCIALIZE_FRAMEWORK_DIR)" -framework Socialize -ObjC -all_load
 //FRAMEWORK_SEARCH_PATHS=$(inherited) $(SRCROOT)
