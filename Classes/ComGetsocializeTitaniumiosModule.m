@@ -15,6 +15,7 @@
 @implementation ComGetsocializeTitaniumiosModule
 @synthesize apiKey = apiKey_;
 @synthesize apiSecret = apiSecret_;
+@synthesize facebookAppId = facebookAppId_;
 
 #pragma mark Internal
 
@@ -128,6 +129,12 @@
 {
     NonatomicRetainedSetToFrom(apiSecret_, value);
     [self trySetApiKeyAndSecret];
+}
+
+-(void)setFacebookAppId:(id)value
+{
+    NonatomicRetainedSetToFrom(facebookAppId_, value);
+    [Socialize storeFacebookAppId:value];
 }
 
 -(id)removeAuthenticationInfo:(id)args {

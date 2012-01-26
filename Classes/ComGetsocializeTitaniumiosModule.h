@@ -14,5 +14,6 @@
 
 @property (nonatomic, copy) NSString *apiKey;
 @property (nonatomic, copy) NSString *apiSecret;
+@property (nonatomic, copy) NSString *facebookAppId;
 
 @end

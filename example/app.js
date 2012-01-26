@@ -31,6 +31,7 @@ testView = socializeiostitanium.getActionBar("MyKey");
 socializeiostitanium.removeAuthenticationInfo();
 socializeiostitanium.apiKey = "5cb19dab-aca7-4a0d-9eb5-a5628192c2f2";
 socializeiostitanium.apiSecret = "feb304e6-437e-4e3e-bdc8-81c2b863c23b";
+socializeiostitanium.facebookAppId = "115622641859087";
 
 var navWindow = Ti.UI.createWindow({
     backgroundColor:"#fff",
