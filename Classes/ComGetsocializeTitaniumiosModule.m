@@ -39,7 +39,7 @@
 	// you *must* call the superclass
 	[super startup];
 	
-    NSString *bundlePath = [NSString stringWithFormat:@"modules/%@/socialize.bundle",MODULEID];
+    NSString *bundlePath = [NSString stringWithFormat:@"modules/%@/Socialize.bundle",MODULEID];
     [Socialize storeBundlePath:bundlePath];
 	NSLog(@"[INFO] %@ loaded",self);
     
